@@ -1,0 +1,20 @@
+{
+	"name": "@discord-architect/env",
+	"version": "1.0.0",
+	"main": "build/Env.js",
+	"repository": "git@github.com:Discord-Architect/Env.git",
+	"author": "Freeze455 <baptiste.parmantier.pro@gmail.com>",
+	"license": "MIT",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
+	"scripts": {
+		"dev": "tsc -w",
+		"build": "tsc"
+	},
+	"dependencies": {
+		"@types/node": "^14.14.32",
+		"dotenv": "^8.2.0",
+		"typescript": "^4.2.3"
+	}
+}
